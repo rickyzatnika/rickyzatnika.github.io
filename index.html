@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arga Gordyn</title>
+  <!-- Bootstrap -->
+  <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- <script src="/js/bootstrap.bundle.min.js"></script> -->
+  
+  <script src="https://kit.fontawesome.com/e7b742a82d.js" crossorigin="anonymous"></script>
+  <!-- lightbox -->
+  <link rel="stylesheet" href="lightbox.css">
+  <!-- Fonts -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- My Css -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <canvas id="canvas1"></canvas>
+
+  <!---------------Navigation--------------->
+  <div class="header">
+    <nav id="navbar">
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span> </span></a>
+      </div>
+      <a href="/index.html"><img src="images/arga_logo.png" class="logo" alt=""></a>
+      
+      <ul id="menu">
+        <li><a href="#" >Home</a></li>
+        
+        <li><a href="/page/portfolio/index.html" target="blank">Portfolio</a></li>
+        <li><a href="/page/gallery/index.html" target="blank">Gallery</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!----------X-----Navigation--------X------->
+
+  
+  <!---------------Hero--------------->
+  <section>
+    <div class="container_hero">
+      <div class="hero_title">
+        <h1>Spesialis Window fashion</h1>
+        <h3> <span>&</span> Design Interior</h3>
+        <p>Menyediakan semua kebutuhan interior ruangan seperti <strong class="yellow">Gordyn, Wallpaper, Window Blind, Roman Shades, Canopy, Accessories</strong> Berkualitas dan Elegan. <br> kami pun menyediakan tenaga kerja yang ahli dibidangnya masing-masing untuk membantu anda dalam Mendesign, Mengukur, Instalasi dan Konsultasi. <em>GRATIS</em> </p>
+        <a href="/page/about/index.html"class="btn" target="blank">Tentang Kami</a>
+      </div>
+      <div class="hero_image">
+        <div class="image_slide">
+          <img src="/images/jason-leung-7XOYJHppytw-unsplash.jpg" alt="">
+        </div>
+        <div class="image_slide">
+          <img src="/images/deconovo-uKBSq6O1BMw-unsplash.jpg" alt="">
+        </div>
+        <div class="image_slide">
+          <img src="/images/wB.png" alt="">
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <img class="demo cursor" src="/images/jason-leung-7XOYJHppytw-unsplash.jpg" alt="" onclick="currentSlide(1)" style="width: 100%;">
+          </div>
+          <div class="col">
+            <img class="demo cursor" src="/images/deconovo-uKBSq6O1BMw-unsplash.jpg" alt="" onclick="currentSlide(2)" style="width: 100%;">
+          </div>
+          <div class="col">
+            <img class="demo cursor" src="/images/wB.png" alt="" onclick="currentSlide(3)" style="width: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------X--------Hero--------X------->
+
+  <!--------------------Portfolio------------------->
+  
+  <section >
+    
+    <div class="portfolio" id="portfolio">
+      
+      <div class="portfolio_title">
+        <h2>portfolio</h2>
+      </div>
+      <div class="container_content">
+        <div class="row content offset=-2" >
+          <div class="col-md content_left">
+            <h4>Gordyn Pony</h4>
+            <p>Di dalam seni mendesign khususnya Design Interior tentu membutuhkan skill dan pengalaman yang cukup untuk dapat menghasilkan sesuatu yang kita inginkan.
+              Bukan sekedar menyesuaikan warna dengan tema ruangan saja, tetapi pemilihan bahan, motif, jenis dan kualitas akan mendapatkan hasil yang lebih baik. <br>
+          </div>
+          <div class="col-md content_image">
+            <div><img src="/images/gordynPony.jpg" alt=""></div>
+            <small>- gordyn pony -</small>
+            
+          </div>
+        </div>
+        <div class="row content2">
+          <div class="col-md content_image2">
+            <div><img src="/images/wB.png" alt=""></div>
+            <small>- window blind -</small>
+          </div>
+          <div class="col-md content_right">
+            <h4>Window Blind</h4>
+            <p>Di dalam seni mendesign khususnya Design Interior tentu membutuhkan skill dan pengalaman yang cukup untuk dapat menghasilkan sesuatu yang kita inginkan.
+              Bukan sekedar menyesuaikan warna dengan tema ruangan saja, tetapi pemilihan bahan, motif, jenis dan kualitas akan mendapatkan hasil yang lebih baik. <br>
+          </div>
+        </div>
+      </div>
+      <div class="port_image">
+        <a href="images/image1.jpg" data-lightbox="models" data-title="Caption1">
+          <img src="images/image1.jpg" alt="">
+        </a>  
+        <a href="images/image2.jpg" data-lightbox="models" data-title="Caption2">
+          <img src="images/image2.jpg" alt="">  
+        </a>   
+        <a href="images/image3.jpg" data-lightbox="models" data-title="Caption3">
+          <img src="images/image3.jpg" alt="">
+        </a>    
+        <a href="images/image3.jpg" data-lightbox="models" data-title="Caption3">
+          <img src="images/image3.jpg" alt=""> 
+        </a>    
+        <a href="images/image3.jpg" data-lightbox="models" data-title="Caption3">
+          <img src="images/image3.jpg" alt=""> 
+        </a>    
+        <a href="images/image3.jpg" data-lightbox="models" data-title="Caption3">
+          <img src="images/image3.jpg" alt=""> 
+        </a>    
+        <a href="/page/gallery/index.html" class="btn" target="blink">KE GALLERI </a>
+      </div>
+        
+        <div class="service_title">
+          <h5>Kenapa memilih kami ??</h5>
+        </div>
+        <div class="container_service">
+          <div class="service_content ">
+            <div class="tridi">
+              <i class="fas fa-shield-alt"></i>
+              <h5>Bergaransi</h5>
+              <p>Garansi Selama 3 Bulan Terhitung setelah serah Terima Barang</p><br>
+            </div>
+          </div>
+          <div class="service_content">
+            <div class="tridi">
+              <i class="fas fa-user-tie"></i>
+              <h5>Professional</h5>
+              <p>Tenaga Kerja Berpengalaman lebih dari 10 Tahun</p><br>
+            </div>
+          </div>
+          <div class="service_content">
+            <div class="tridi">
+              <i class="fas fa-award"></i>
+              <h5>Berkualitas</h5>
+              <p>Produk Pilihan Terbaik demi Menjaga Kepuasan Anda</p><br>
+            </div>
+          </div>
+          <div class="service_content">
+            <div class="tridi">
+              <i class="fas fa-tools"></i>
+              <h5>Free Service</h5>
+              <p>Gratis Biaya Layanan Konsultasi Pengukuran Dan Pemasangan</p><br>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  <!-------X-------------Portfolio-----------X-------->    
+        
+  
+  
+  
+  
+  <!-- ------------------Testimoni------------- -->
+  <section>
+    <div class="container_testi">
+      <div class="testi_title">
+        <h2>Testimoni Pelanggan</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, esse!</p>
+      </div>
+      <div class="testi_content">
+        <div class="row">
+          <div class="col-md-4 testi_box">
+            <div class="user_image">
+              <img src="/images/gambar.png" alt="">
+              <p>Agus Supardi</p>
+              <svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg>
+            </div>
+            <article class="testimoni">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui fugit exercitationem numquam quo repudiandae odio beatae eos."</article>
+          </div>
+          <div class="col-md-4 testi_box">
+            <div class="user_image">
+              <img src="/images/gambar.png" alt="">
+              <p>Agus Susanto</p>
+              <svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg>
+            </div>
+            <article class="testimoni">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui fugit exercitationem numquam quo repudiandae odio beatae eos, illum sed, soluta accusantium"</article>
+          </div>
+          <div class="col-md-4 testi_box">
+            <div class="user_image">
+              <img src="/images/gambar.png" alt="">
+              <p>Agus Susanto</p>
+              <svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg><svg id="Layer_1" style="enable-background:new 0 0 612 792;" version="1.1" viewBox="0 0 612 792" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                .st0{fill:#FCAF17;}
+              </style><g><polygon class="st0" points="306,153 216.4,298.9 50,339 161,469.3 147.8,639.9 306,574.6 464.2,639.9 451,469.3 562,339    395.6,298.9 306,153  "/></g></svg>
+            </div>
+            <article class="testimoni">"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui fugit exercitationem numquam quo repudiandae odio beatae eos, illum sed"</article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- ----X--------------Testimoni---------X---- -->
+  
+  
+
+  
+  
+  <!--------------------------About--------------------->
+  
+ 
+  <section>
+    <div class="about" id="about">
+      <span class="circle_big"></span>
+      <div class="about_title">
+          <h2>Tentang Kami</h2>
+      </div>
+      <div class="about_content">
+        <article>
+          <span class="big">A</span>rga Gordyn adalah perusahaan/toko yang menjual kebutuhan interior seperti <strong>Gordyn, Wallpaper, Window Blind, Roman Shades, Canopy & Accesories</strong> Untuk kebutuhan ruangan anda seperti Rumah, Gedung Kantor, Rumah sakit, Universitas, Gedung Sekolah , Apartment, Hotel dan lainnya. <br>
+          Berdiri pada awal Tahun 2002 kami merintis usaha ini tentu bukan hal yang mudah bagi kami bisa bertahan sampai saat ini semua adalah Berkah & Karunia dari Allah SWT dan tentunya kami mengucapkan banyak terima kasih atas kepercayaan pelanggan yang telah memilih kami sebagai mitra. Selain menjual kebutuhan interior ruangan kami juga menyediakan jasa <b>Konsultasi, Pengukuran dan Pemasangan</b> <b><em>GRATIS !!!</em></b> dibantu oleh team yang berpengalaman dibidangnya masing-masing dengan tujuan meningkatkan pelayanan kami kepada pelanggan dan memberikan kemudahan bagi pelanggan/calon pelanggan untuk mendapatkan hasil design yang maksimal dan sesuai yang diinginkan.
+        </article>
+      </div>
+    </div>
+  </section>  
+        
+  <!-------------X-------------About-------------X-------->
+          
+            
+  <!-- -------------------Kontak---------------- -->
+  
+  <section id="contact">
+    <div class="container_contact">
+      <span class="big-circle"></span>
+      <img src="/images/Shape1.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Outlet Kami</h3>
+          <p class="text">
+            Kunjungi Outlet kami di alamat berikut, dengan senang hati kami akan menyambut anda dengan pelayanan terbaik kami
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="/images/maps.png" class="icon" alt="" />
+              <p>Jl. Sindang Sari Barat No.6 RW.01 Melong, Cimahi Selatan  - Jawa Barat 40534</p>
+            </div>
+            <div class="information">
+              <img src="/images/email.png" class="icon" alt="" />
+              <p>support@arga.com</p>
+            </div>
+            <div class="information">
+              <img src="/images/phone.png" class="icon" alt="" />
+              <p>0812-2039-0812</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Sosial Media :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>  
+            
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="index.html" autocomplete="off">
+            <h3 class="title">Hubungi Kami</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" />
+              <label for="">Nama Lengkap</label>
+              <span>Nama Lengkap</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" />
+              <label for="">No.Handphone</label>
+              <span>No.Handphone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input"></textarea>
+              <label for="">Pesan</label>
+              <span>Pesan</span>
+            </div>
+            <input type="submit" value="Kirim" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- -------X------------Kontak-----------X----- -->
+         
+        
+  <!-- -------------------Footer-----------------  -->
+  
+  <section>
+    <footer class="footer">
+      <div class="container_footer">
+        <div class="footer_logo">
+          <img src="images/arga_logo.png" alt="">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum quaerat nobis sunt laudantium facilis repellendus quod dignissimos ex harum exercitationem!</p>
+        </div>
+        
+          <div class="menu_title">
+            <h5>Menu</h5>
+            <ul>
+              <li><a href="/index.html">Beranda</a></li>
+              <li><a href="#!">Blog</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="/page/gallery/index.html" target="blank">Gallery</a></li>
+              <li><a href="#about">Tentang</a></li>
+              <li><a href="#contact">Kontak</a></li>
+            </ul>
+          </div>
+          
+        
+        
+          <div class="support_title">
+            <h5>Support</h5>
+            <ul>
+              <li>
+                <p>support@arga.com</p>
+                <p>argagordyn@gmail.com</p>
+              </li>
+              <li>
+                <p>+62821-2266-4238</p>
+                <p>(022)-2511-240</p>
+              </li>
+            </ul>
+          </div>
+          
+        
+        
+          <div class="terms_title">
+            <h5>S&K</h5>
+            <ul>
+              <li><a href="#!">Terms & Conditions</a></li>
+              <li><a href="#!">Disclaimer</a></li>
+              <li><a href="#!">Privacy Police</a></li>
+            </ul>
+          </div>
+          
+        
+      </div>
+      <hr>
+      <p class="copyright">All Rights Reserved © 2021 | <a href="#">argagordyn.com</a></p>
+    </footer>
+  </section>
+  
+  
+  <!-- ----X---------------Footer------------X-----  -->
+        
+         
+        
+         
+    
+    
+   
+    
+  
+    
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="vanilla-tilt.min.js"></script>
+  <script src="lightbox-plus-jquery.js"></script>
+  <script src="script.js"></script>
+  
+</body>
+</html>
