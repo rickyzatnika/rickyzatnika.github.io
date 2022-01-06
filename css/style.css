@@ -1817,7 +1817,16 @@ hr {
    /* ---------------Footer--------------- */
   
 }
+@media(max-width: 500px){
+  html {
+    font-size: 65%;
+  }
+}
 
-
+@media(max-width: 300px){
+  html {
+    font-size: 55%;
+  }
+}
 
 
