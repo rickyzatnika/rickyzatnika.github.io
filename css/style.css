@@ -335,8 +335,8 @@ nav.sticky .nav-mobile {
 .hero_title p {
   color: var(--light-text);
   margin-bottom: 25px;
-  padding: 8px;
-  font-size: clamp(.9em, 2.5vw, 1rem); 
+  
+  font-size: clamp(.9em, 5vw, 1rem); 
 }
 
 .yellow {
