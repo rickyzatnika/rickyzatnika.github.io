@@ -692,6 +692,11 @@ em {
   font-size: clamp(1.5em, 2.5vw, 2em);
   -webkit-box-reflect: below -0.45em linear-gradient(transparent, rgba(0, 0, 0, 0.24));
 }
+.about_article {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: var(--Livvic);
+}
 
 .about_content {
   display: block;
