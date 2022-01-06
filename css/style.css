@@ -212,7 +212,7 @@ nav .nav-mobile {
 
 nav.sticky {
   position: fixed;
-  background: #222;
+  background: rgb(24, 24, 24);
   display: inline-block;
   transition: all .8s ease;
   box-shadow: 0 0 18px rgba(54, 54, 54, 0.623);
