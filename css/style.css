@@ -352,10 +352,10 @@ em {
   
 }
 
-.hero_title .bton {
-  position: absolute;
-  padding: 10px 2em;
-  font-size: 1.1em;
+.hero_title a.bton {
+  position: relative;
+  padding: .6rem 1.5rem;
+  font-size: 1.1rem;
   background: transparent;
   color: rgb(192, 192, 192);
   font-weight: 400;
@@ -364,10 +364,9 @@ em {
   border-radius: 30px;
   box-shadow: inset 0 0 20px rgba(218, 165, 32, 0.342), 0 0 10px goldenrod;
   z-index: 1;
-  top: 99%; left: 50%;
-  transform: translate(-50%, 0);
+  margin-top: 2.5rem;
 }
-.hero_title .bton:hover  {
+.hero_title a.bton:hover  {
   color: rgb(163, 163, 163);
   border: none;
   background: linear-gradient(to bottom, rgb(180, 140, 52) 0%, rgba(58, 44, 17, 0.842) 100%);
@@ -393,7 +392,7 @@ em {
 }
 
 .portfolio_title h2 {
-   position: relative;
+  position: relative;
   color: var(--white);
   text-transform: uppercase;
   text-shadow: 0 0 1px rgb(95, 94, 94);
@@ -1361,26 +1360,24 @@ hr {
     margin-bottom: 10px;
     /* -webkit-border-image: fill; */
   }
-  .hero_title .bton {
+  .hero_title a.bton {
     position: relative;
-    padding: 10px 2rem;
+    
     font-size: 1.1rem;
     background: transparent;
     color: rgb(192, 192, 192);
     font-weight: 400;
-    transition: 0.3s ease-in-out;
+    transition: .3s ease;
     border: 1px solid goldenrod;
     border-radius: 30px;
     box-shadow: inset 0 0 20px rgba(218, 165, 32, 0.342), 0 0 10px goldenrod;
     z-index: 1;
-    top: 0; left: -.1rem;
+    top: 0; left: 0;
     
   }
-  .hero_title .bton:hover  {
+  .hero_title a.bton:hover  {
     color: rgb(163, 163, 163);
-    border: none;
     background: linear-gradient(to bottom, rgb(180, 140, 52) 0%, rgba(58, 44, 17, 0.842) 100%);
-    left: 1rem;
   }
   
   
