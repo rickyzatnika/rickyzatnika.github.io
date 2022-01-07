@@ -1093,8 +1093,15 @@ hr {
 }
 
 .copyright a:hover {
-  color: var(--text-light);
+  color: var(--light-text);
   
+}
+footer small {
+  color: var(--text-light);
+  font-weight: 600;
+}
+footer small i {
+  color: rgb(206, 7, 7);
 }
 
 .whatsapp {
